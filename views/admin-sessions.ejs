@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Sessions</title>
+</head>
+<body>
+  <h1>Active User Sessions</h1>
+
+
+  <table border="1" cellpadding="8">
+    <thead>
+      <tr>
+        <th>Session ID</th>
+        <th>User ID</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% sessions.forEach(s => { %>
+        <tr>
+          <td><%= s.sessionId %></td>
+          <td><%= s.userId %></td>
+          <td>
+            <form action="/admin/revoke-session/<%= s.sessionId %>" method="POST">
+              <button type="submit">Revoke</button>
+            </form>
+          </td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>
+</html>

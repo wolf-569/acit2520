@@ -1,0 +1,834 @@
+  console.log
+    🚀 Server has started on port 8000
+
+      at Server.<anonymous> (app.ts:64:11)
+
+  console.log
+    User details are:
+
+      at app.ts:49:11
+
+  console.log
+    undefined
+
+      at app.ts:50:11
+
+  console.log
+    Entire session object:
+
+      at app.ts:52:11
+
+  console.log
+    Session {
+      cookie: {
+        path: '/',
+        _expires: 2025-10-15T18:25:25.000Z,
+        originalMaxAge: 86400000,
+        httpOnly: true,
+        secure: false
+      }
+    }
+
+      at app.ts:53:11
+
+  console.log
+    Session details are:
+
+      at app.ts:55:11
+
+  console.log
+    undefined
+
+      at app.ts:56:11
+
+  console.log
+    User details are:
+
+      at app.ts:49:11
+
+  console.log
+    undefined
+
+      at app.ts:50:11
+
+  console.log
+    Entire session object:
+
+      at app.ts:52:11
+
+  console.log
+    Session {
+      cookie: {
+        path: '/',
+        _expires: 2025-10-15T18:25:25.023Z,
+        originalMaxAge: 86400000,
+        httpOnly: true,
+        secure: false
+      }
+    }
+
+      at app.ts:53:11
+
+  console.log
+    Session details are:
+
+      at app.ts:55:11
+
+  console.log
+    undefined
+
+      at app.ts:56:11
+
+  console.log
+    User details are:
+
+      at app.ts:49:11
+
+  console.log
+    undefined
+
+      at app.ts:50:11
+
+  console.log
+    Entire session object:
+
+      at app.ts:52:11
+
+  console.log
+    Session {
+      cookie: {
+        path: '/',
+        _expires: 2025-10-15T18:25:25.039Z,
+        originalMaxAge: 86400000,
+        httpOnly: true,
+        secure: false
+      }
+    }
+
+      at app.ts:53:11
+
+  console.log
+    Session details are:
+
+      at app.ts:55:11
+
+  console.log
+    undefined
+
+      at app.ts:56:11
+
+  console.log
+    CWD: /Users/ashenperera/Documents/bcit/fall_25/web/passport-typescript-lab
+
+      at tests/app.test.ts:18:15
+
+  console.log
+    <ref *2> Response {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      res: <ref *1> IncomingMessage {
+        _events: {
+          close: [Function: bound emit],
+          error: [Array],
+          data: [Array],
+          end: [Array],
+          readable: undefined
+        },
+        _readableState: ReadableState {
+          highWaterMark: 65536,
+          buffer: [],
+          bufferIndex: 0,
+          length: 0,
+          pipes: [],
+          awaitDrainWriters: null,
+          Symbol(kState): 201070460,
+          Symbol(kDecoderValue): [StringDecoder],
+          Symbol(kEncodingValue): 'utf8'
+        },
+        _maxListeners: undefined,
+        socket: Socket {
+          connecting: false,
+          _hadError: false,
+          _parent: null,
+          _host: null,
+          _closeAfterHandlingError: false,
+          _events: [Object],
+          _readableState: [ReadableState],
+          _writableState: [WritableState],
+          allowHalfOpen: false,
+          _maxListeners: undefined,
+          _eventsCount: 7,
+          _sockname: null,
+          _pendingData: null,
+          _pendingEncoding: '',
+          server: null,
+          _server: null,
+          parser: null,
+          _httpMessage: [ClientRequest],
+          Symbol(async_id_symbol): 151,
+          Symbol(kHandle): [TCP],
+          Symbol(lastWriteQueueSize): 0,
+          Symbol(timeout): null,
+          Symbol(kBuffer): null,
+          Symbol(kBufferCb): null,
+          Symbol(kBufferGen): null,
+          Symbol(shapeMode): true,
+          Symbol(kCapture): false,
+          Symbol(kSetNoDelay): true,
+          Symbol(kSetKeepAlive): false,
+          Symbol(kSetKeepAliveInitialDelay): 0,
+          Symbol(kBytesRead): 0,
+          Symbol(kBytesWritten): 0
+        },
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        rawHeaders: [
+          'X-Powered-By',
+          'Express',
+          'Content-Security-Policy',
+          "default-src 'none'",
+          'X-Content-Type-Options',
+          'nosniff',
+          'Content-Type',
+          'text/html; charset=utf-8',
+          'Content-Length',
+          '145',
+          'Date',
+          'Tue, 14 Oct 2025 18:25:25 GMT',
+          'Connection',
+          'close'
+        ],
+        rawTrailers: [],
+        joinDuplicateHeaders: undefined,
+        aborted: false,
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: Socket {
+          connecting: false,
+          _hadError: false,
+          _parent: null,
+          _host: null,
+          _closeAfterHandlingError: false,
+          _events: [Object],
+          _readableState: [ReadableState],
+          _writableState: [WritableState],
+          allowHalfOpen: false,
+          _maxListeners: undefined,
+          _eventsCount: 7,
+          _sockname: null,
+          _pendingData: null,
+          _pendingEncoding: '',
+          server: null,
+          _server: null,
+          parser: null,
+          _httpMessage: [ClientRequest],
+          Symbol(async_id_symbol): 151,
+          Symbol(kHandle): [TCP],
+          Symbol(lastWriteQueueSize): 0,
+          Symbol(timeout): null,
+          Symbol(kBuffer): null,
+          Symbol(kBufferCb): null,
+          Symbol(kBufferGen): null,
+          Symbol(shapeMode): true,
+          Symbol(kCapture): false,
+          Symbol(kSetNoDelay): true,
+          Symbol(kSetKeepAlive): false,
+          Symbol(kSetKeepAliveInitialDelay): 0,
+          Symbol(kBytesRead): 0,
+          Symbol(kBytesWritten): 0
+        },
+        _consuming: false,
+        _dumped: false,
+        req: ClientRequest {
+          _events: [Object: null prototype],
+          _eventsCount: 3,
+          _maxListeners: undefined,
+          outputData: [],
+          outputSize: 0,
+          writable: true,
+          destroyed: false,
+          _last: true,
+          chunkedEncoding: false,
+          shouldKeepAlive: false,
+          maxRequestsOnConnectionReached: false,
+          _defaultKeepAlive: true,
+          useChunkedEncodingByDefault: true,
+          sendDate: false,
+          _removedConnection: false,
+          _removedContLen: false,
+          _removedTE: false,
+          strictContentLength: false,
+          _contentLength: 43,
+          _hasBody: true,
+          _trailer: '',
+          finished: true,
+          _headerSent: true,
+          _closed: false,
+          _header: 'POST /login HTTP/1.1\r\n' +
+            'Host: 127.0.0.1:53495\r\n' +
+            'Accept-Encoding: gzip, deflate\r\n' +
+            'Content-Type: application/json\r\n' +
+            'Content-Length: 43\r\n' +
+            'Connection: close\r\n' +
+            '\r\n',
+          _keepAliveTimeout: 0,
+          _onPendingData: [Function: nop],
+          agent: [Agent],
+          socketPath: undefined,
+          method: 'POST',
+          maxHeaderSize: undefined,
+          insecureHTTPParser: undefined,
+          joinDuplicateHeaders: undefined,
+          path: '/login',
+          _ended: true,
+          res: [Circular *1],
+          aborted: false,
+          timeoutCb: null,
+          upgradeOrConnect: false,
+          parser: null,
+          maxHeadersCount: null,
+          reusedSocket: false,
+          host: '127.0.0.1',
+          protocol: 'http:',
+          Symbol(shapeMode): false,
+          Symbol(kCapture): false,
+          Symbol(kBytesWritten): 0,
+          Symbol(kNeedDrain): false,
+          Symbol(corked): 0,
+          Symbol(kChunkedBuffer): [],
+          Symbol(kChunkedLength): 0,
+          Symbol(kSocket): [Socket],
+          Symbol(kOutHeaders): [Object: null prototype],
+          Symbol(errored): null,
+          Symbol(kHighWaterMark): 65536,
+          Symbol(kRejectNonStandardBodyWrites): false,
+          Symbol(kUniqueHeaders): null
+        },
+        _eventsCount: 4,
+        text: '<!DOCTYPE html>\n' +
+          '<html lang="en">\n' +
+          '<head>\n' +
+          '<meta charset="utf-8">\n' +
+          '<title>Error</title>\n' +
+          '</head>\n' +
+          '<body>\n' +
+          '<pre>Cannot POST /login</pre>\n' +
+          '</body>\n' +
+          '</html>\n',
+        Symbol(shapeMode): true,
+        Symbol(kCapture): false,
+        Symbol(kHeaders): {
+          'x-powered-by': 'Express',
+          'content-security-policy': "default-src 'none'",
+          'x-content-type-options': 'nosniff',
+          'content-type': 'text/html; charset=utf-8',
+          'content-length': '145',
+          date: 'Tue, 14 Oct 2025 18:25:25 GMT',
+          connection: 'close'
+        },
+        Symbol(kHeadersCount): 14,
+        Symbol(kTrailers): null,
+        Symbol(kTrailersCount): 0
+      },
+      request: Test {
+        _events: [Object: null prototype] { abort: [Function (anonymous)] },
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        _enableHttp2: false,
+        _agent: false,
+        _formData: null,
+        method: 'POST',
+        url: 'http://127.0.0.1:53495/login',
+        _header: { 'content-type': 'application/json' },
+        header: { 'Content-Type': 'application/json' },
+        writable: true,
+        _redirects: 0,
+        _maxRedirects: 0,
+        cookies: '',
+        qs: {},
+        _query: [],
+        qsRaw: [],
+        _redirectList: [],
+        _streamRequest: false,
+        _lookup: undefined,
+        _buffer: true,
+        app: Server {
+          maxHeaderSize: undefined,
+          insecureHTTPParser: undefined,
+          requestTimeout: 300000,
+          headersTimeout: 60000,
+          keepAliveTimeout: 5000,
+          keepAliveTimeoutBuffer: 1000,
+          connectionsCheckingInterval: 30000,
+          requireHostHeader: true,
+          joinDuplicateHeaders: undefined,
+          rejectNonStandardBodyWrites: false,
+          _events: [Object: null prototype],
+          _eventsCount: 3,
+          _maxListeners: undefined,
+          _connections: 0,
+          _handle: null,
+          _usingWorkers: false,
+          _workers: [],
+          _unref: false,
+          _listeningId: 3,
+          allowHalfOpen: true,
+          pauseOnConnect: false,
+          noDelay: true,
+          keepAlive: false,
+          keepAliveInitialDelay: 0,
+          highWaterMark: 65536,
+          httpAllowHalfOpen: false,
+          timeout: 0,
+          maxHeadersCount: null,
+          maxRequestsPerSocket: 0,
+          _connectionKey: '6::::0',
+          Symbol(IncomingMessage): [Function: IncomingMessage],
+          Symbol(ServerResponse): [Function: ServerResponse],
+          Symbol(shapeMode): false,
+          Symbol(kCapture): false,
+          Symbol(async_id_symbol): 149,
+          Symbol(kUniqueHeaders): null,
+          Symbol(http.server.connections): ConnectionsList {},
+          Symbol(http.server.connectionsCheckingInterval): Timeout {
+            _idleTimeout: -1,
+            _idlePrev: null,
+            _idleNext: null,
+            _idleStart: 1265,
+            _onTimeout: null,
+            _timerArgs: undefined,
+            _repeat: 30000,
+            _destroyed: true,
+            Symbol(refed): false,
+            Symbol(kHasPrimitive): false,
+            Symbol(asyncId): 154,
+            Symbol(triggerId): 150,
+            Symbol(kAsyncContextFrame): [AsyncContextFrame [Map]]
+          }
+        },
+        _asserts: [],
+        _server: Server {
+          maxHeaderSize: undefined,
+          insecureHTTPParser: undefined,
+          requestTimeout: 300000,
+          headersTimeout: 60000,
+          keepAliveTimeout: 5000,
+          keepAliveTimeoutBuffer: 1000,
+          connectionsCheckingInterval: 30000,
+          requireHostHeader: true,
+          joinDuplicateHeaders: undefined,
+          rejectNonStandardBodyWrites: false,
+          _events: [Object: null prototype],
+          _eventsCount: 3,
+          _maxListeners: undefined,
+          _connections: 0,
+          _handle: null,
+          _usingWorkers: false,
+          _workers: [],
+          _unref: false,
+          _listeningId: 3,
+          allowHalfOpen: true,
+          pauseOnConnect: false,
+          noDelay: true,
+          keepAlive: false,
+          keepAliveInitialDelay: 0,
+          highWaterMark: 65536,
+          httpAllowHalfOpen: false,
+          timeout: 0,
+          maxHeadersCount: null,
+          maxRequestsPerSocket: 0,
+          _connectionKey: '6::::0',
+          Symbol(IncomingMessage): [Function: IncomingMessage],
+          Symbol(ServerResponse): [Function: ServerResponse],
+          Symbol(shapeMode): false,
+          Symbol(kCapture): false,
+          Symbol(async_id_symbol): 149,
+          Symbol(kUniqueHeaders): null,
+          Symbol(http.server.connections): ConnectionsList {},
+          Symbol(http.server.connectionsCheckingInterval): Timeout {
+            _idleTimeout: -1,
+            _idlePrev: null,
+            _idleNext: null,
+            _idleStart: 1265,
+            _onTimeout: null,
+            _timerArgs: undefined,
+            _repeat: 30000,
+            _destroyed: true,
+            Symbol(refed): false,
+            Symbol(kHasPrimitive): false,
+            Symbol(asyncId): 154,
+            Symbol(triggerId): 150,
+            Symbol(kAsyncContextFrame): [AsyncContextFrame [Map]]
+          }
+        },
+        _data: { email: 'test@mail.com', password: 'test' },
+        req: ClientRequest {
+          _events: [Object: null prototype],
+          _eventsCount: 3,
+          _maxListeners: undefined,
+          outputData: [],
+          outputSize: 0,
+          writable: true,
+          destroyed: false,
+          _last: true,
+          chunkedEncoding: false,
+          shouldKeepAlive: false,
+          maxRequestsOnConnectionReached: false,
+          _defaultKeepAlive: true,
+          useChunkedEncodingByDefault: true,
+          sendDate: false,
+          _removedConnection: false,
+          _removedContLen: false,
+          _removedTE: false,
+          strictContentLength: false,
+          _contentLength: 43,
+          _hasBody: true,
+          _trailer: '',
+          finished: true,
+          _headerSent: true,
+          _closed: false,
+          _header: 'POST /login HTTP/1.1\r\n' +
+            'Host: 127.0.0.1:53495\r\n' +
+            'Accept-Encoding: gzip, deflate\r\n' +
+            'Content-Type: application/json\r\n' +
+            'Content-Length: 43\r\n' +
+            'Connection: close\r\n' +
+            '\r\n',
+          _keepAliveTimeout: 0,
+          _onPendingData: [Function: nop],
+          agent: [Agent],
+          socketPath: undefined,
+          method: 'POST',
+          maxHeaderSize: undefined,
+          insecureHTTPParser: undefined,
+          joinDuplicateHeaders: undefined,
+          path: '/login',
+          _ended: true,
+          res: [IncomingMessage],
+          aborted: false,
+          timeoutCb: null,
+          upgradeOrConnect: false,
+          parser: null,
+          maxHeadersCount: null,
+          reusedSocket: false,
+          host: '127.0.0.1',
+          protocol: 'http:',
+          Symbol(shapeMode): false,
+          Symbol(kCapture): false,
+          Symbol(kBytesWritten): 0,
+          Symbol(kNeedDrain): false,
+          Symbol(corked): 0,
+          Symbol(kChunkedBuffer): [],
+          Symbol(kChunkedLength): 0,
+          Symbol(kSocket): [Socket],
+          Symbol(kOutHeaders): [Object: null prototype],
+          Symbol(errored): null,
+          Symbol(kHighWaterMark): 65536,
+          Symbol(kRejectNonStandardBodyWrites): false,
+          Symbol(kUniqueHeaders): null
+        },
+        protocol: 'http:',
+        host: '127.0.0.1:53495',
+        _endCalled: true,
+        _callback: [Function (anonymous)],
+        _fullfilledPromise: Promise { [Circular *2] },
+        res: <ref *1> IncomingMessage {
+          _events: [Object],
+          _readableState: [ReadableState],
+          _maxListeners: undefined,
+          socket: [Socket],
+          httpVersionMajor: 1,
+          httpVersionMinor: 1,
+          httpVersion: '1.1',
+          complete: true,
+          rawHeaders: [Array],
+          rawTrailers: [],
+          joinDuplicateHeaders: undefined,
+          aborted: false,
+          upgrade: false,
+          url: '',
+          method: null,
+          statusCode: 404,
+          statusMessage: 'Not Found',
+          client: [Socket],
+          _consuming: false,
+          _dumped: false,
+          req: [ClientRequest],
+          _eventsCount: 4,
+          text: '<!DOCTYPE html>\n' +
+            '<html lang="en">\n' +
+            '<head>\n' +
+            '<meta charset="utf-8">\n' +
+            '<title>Error</title>\n' +
+            '</head>\n' +
+            '<body>\n' +
+            '<pre>Cannot POST /login</pre>\n' +
+            '</body>\n' +
+            '</html>\n',
+          Symbol(shapeMode): true,
+          Symbol(kCapture): false,
+          Symbol(kHeaders): [Object],
+          Symbol(kHeadersCount): 14,
+          Symbol(kTrailers): null,
+          Symbol(kTrailersCount): 0
+        },
+        _resBuffered: true,
+        response: [Circular *2],
+        called: true,
+        Symbol(shapeMode): false,
+        Symbol(kCapture): false
+      },
+      req: <ref *3> ClientRequest {
+        _events: [Object: null prototype] {
+          drain: [Function],
+          error: [Function (anonymous)],
+          finish: [Function: requestOnFinish]
+        },
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        outputData: [],
+        outputSize: 0,
+        writable: true,
+        destroyed: false,
+        _last: true,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        maxRequestsOnConnectionReached: false,
+        _defaultKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        strictContentLength: false,
+        _contentLength: 43,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        _closed: false,
+        _header: 'POST /login HTTP/1.1\r\n' +
+          'Host: 127.0.0.1:53495\r\n' +
+          'Accept-Encoding: gzip, deflate\r\n' +
+          'Content-Type: application/json\r\n' +
+          'Content-Length: 43\r\n' +
+          'Connection: close\r\n' +
+          '\r\n',
+        _keepAliveTimeout: 0,
+        _onPendingData: [Function: nop],
+        agent: Agent {
+          _events: [Object: null prototype],
+          _eventsCount: 2,
+          _maxListeners: undefined,
+          options: [Object: null prototype],
+          defaultPort: 80,
+          protocol: 'http:',
+          requests: [Object: null prototype] {},
+          sockets: [Object: null prototype],
+          freeSockets: [Object: null prototype] {},
+          keepAliveMsecs: 1000,
+          keepAlive: false,
+          maxSockets: Infinity,
+          maxFreeSockets: 256,
+          scheduling: 'lifo',
+          maxTotalSockets: Infinity,
+          totalSocketCount: 1,
+          agentKeepAliveTimeoutBuffer: 1000,
+          Symbol(shapeMode): false,
+          Symbol(kCapture): false
+        },
+        socketPath: undefined,
+        method: 'POST',
+        maxHeaderSize: undefined,
+        insecureHTTPParser: undefined,
+        joinDuplicateHeaders: undefined,
+        path: '/login',
+        _ended: true,
+        res: <ref *1> IncomingMessage {
+          _events: [Object],
+          _readableState: [ReadableState],
+          _maxListeners: undefined,
+          socket: [Socket],
+          httpVersionMajor: 1,
+          httpVersionMinor: 1,
+          httpVersion: '1.1',
+          complete: true,
+          rawHeaders: [Array],
+          rawTrailers: [],
+          joinDuplicateHeaders: undefined,
+          aborted: false,
+          upgrade: false,
+          url: '',
+          method: null,
+          statusCode: 404,
+          statusMessage: 'Not Found',
+          client: [Socket],
+          _consuming: false,
+          _dumped: false,
+          req: [Circular *3],
+          _eventsCount: 4,
+          text: '<!DOCTYPE html>\n' +
+            '<html lang="en">\n' +
+            '<head>\n' +
+            '<meta charset="utf-8">\n' +
+            '<title>Error</title>\n' +
+            '</head>\n' +
+            '<body>\n' +
+            '<pre>Cannot POST /login</pre>\n' +
+            '</body>\n' +
+            '</html>\n',
+          Symbol(shapeMode): true,
+          Symbol(kCapture): false,
+          Symbol(kHeaders): [Object],
+          Symbol(kHeadersCount): 14,
+          Symbol(kTrailers): null,
+          Symbol(kTrailersCount): 0
+        },
+        aborted: false,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        reusedSocket: false,
+        host: '127.0.0.1',
+        protocol: 'http:',
+        Symbol(shapeMode): false,
+        Symbol(kCapture): false,
+        Symbol(kBytesWritten): 0,
+        Symbol(kNeedDrain): false,
+        Symbol(corked): 0,
+        Symbol(kChunkedBuffer): [],
+        Symbol(kChunkedLength): 0,
+        Symbol(kSocket): Socket {
+          connecting: false,
+          _hadError: false,
+          _parent: null,
+          _host: null,
+          _closeAfterHandlingError: false,
+          _events: [Object],
+          _readableState: [ReadableState],
+          _writableState: [WritableState],
+          allowHalfOpen: false,
+          _maxListeners: undefined,
+          _eventsCount: 7,
+          _sockname: null,
+          _pendingData: null,
+          _pendingEncoding: '',
+          server: null,
+          _server: null,
+          parser: null,
+          _httpMessage: [Circular *3],
+          Symbol(async_id_symbol): 151,
+          Symbol(kHandle): [TCP],
+          Symbol(lastWriteQueueSize): 0,
+          Symbol(timeout): null,
+          Symbol(kBuffer): null,
+          Symbol(kBufferCb): null,
+          Symbol(kBufferGen): null,
+          Symbol(shapeMode): true,
+          Symbol(kCapture): false,
+          Symbol(kSetNoDelay): true,
+          Symbol(kSetKeepAlive): false,
+          Symbol(kSetKeepAliveInitialDelay): 0,
+          Symbol(kBytesRead): 0,
+          Symbol(kBytesWritten): 0
+        },
+        Symbol(kOutHeaders): [Object: null prototype] {
+          host: [Array],
+          'accept-encoding': [Array],
+          'content-type': [Array],
+          'content-length': [Array]
+        },
+        Symbol(errored): null,
+        Symbol(kHighWaterMark): 65536,
+        Symbol(kRejectNonStandardBodyWrites): false,
+        Symbol(kUniqueHeaders): null
+      },
+      text: '<!DOCTYPE html>\n' +
+        '<html lang="en">\n' +
+        '<head>\n' +
+        '<meta charset="utf-8">\n' +
+        '<title>Error</title>\n' +
+        '</head>\n' +
+        '<body>\n' +
+        '<pre>Cannot POST /login</pre>\n' +
+        '</body>\n' +
+        '</html>\n',
+      files: undefined,
+      buffered: true,
+      headers: {
+        'x-powered-by': 'Express',
+        'content-security-policy': "default-src 'none'",
+        'x-content-type-options': 'nosniff',
+        'content-type': 'text/html; charset=utf-8',
+        'content-length': '145',
+        date: 'Tue, 14 Oct 2025 18:25:25 GMT',
+        connection: 'close'
+      },
+      header: {
+        'x-powered-by': 'Express',
+        'content-security-policy': "default-src 'none'",
+        'x-content-type-options': 'nosniff',
+        'content-type': 'text/html; charset=utf-8',
+        'content-length': '145',
+        date: 'Tue, 14 Oct 2025 18:25:25 GMT',
+        connection: 'close'
+      },
+      statusCode: 404,
+      status: 404,
+      statusType: 4,
+      info: false,
+      ok: false,
+      redirect: false,
+      clientError: true,
+      serverError: false,
+      error: Error: cannot POST /login (404)
+          at Response.toError (/Users/ashenperera/Documents/bcit/fall_25/web/passport-typescript-lab/node_modules/superagent/src/node/response.js:110:17)
+          at Response.toError [as _setStatusProperties] (/Users/ashenperera/Documents/bcit/fall_25/web/passport-typescript-lab/node_modules/superagent/src/response-base.js:107:48)
+          at new _setStatusProperties (/Users/ashenperera/Documents/bcit/fall_25/web/passport-typescript-lab/node_modules/superagent/src/node/response.js:41:8)
+          at Test.Request._emitResponse (/Users/ashenperera/Documents/bcit/fall_25/web/passport-typescript-lab/node_modules/superagent/src/node/index.js:932:20)
+          at IncomingMessage._emitResponse (/Users/ashenperera/Documents/bcit/fall_25/web/passport-typescript-lab/node_modules/superagent/src/node/index.js:1183:38)
+          at IncomingMessage.emit (node:events:520:35)
+          at endReadableNT (node:internal/streams/readable:1701:12)
+          at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+        status: 404,
+        text: '<!DOCTYPE html>\n' +
+          '<html lang="en">\n' +
+          '<head>\n' +
+          '<meta charset="utf-8">\n' +
+          '<title>Error</title>\n' +
+          '</head>\n' +
+          '<body>\n' +
+          '<pre>Cannot POST /login</pre>\n' +
+          '</body>\n' +
+          '</html>\n',
+        method: 'POST',
+        path: '/login'
+      },
+      created: false,
+      accepted: false,
+      noContent: false,
+      badRequest: false,
+      unauthorized: false,
+      notAcceptable: false,
+      forbidden: false,
+      notFound: true,
+      unprocessableEntity: false,
+      type: 'text/html',
+      charset: 'utf-8',
+      links: {},
+      setEncoding: [Function: bound ],
+      redirects: [],
+      pipe: [Function (anonymous)],
+      Symbol(shapeMode): false,
+      Symbol(kCapture): false
+    }
+
+      at tests/app.test.ts:19:15
+
